@@ -21,7 +21,7 @@
 * CUDA 12.1.1
 * Python 3.11.9
 * [Text Generation Web UI](
-  https://github.com/oobabooga/text-generation-webui) v1.12
+  https://github.com/oobabooga/text-generation-webui) v1.13
 * Torch 2.2.2
 * [Jupyter Lab](https://github.com/jupyterlab/jupyterlab)
 * [code-server](https://github.com/coder/code-server)
