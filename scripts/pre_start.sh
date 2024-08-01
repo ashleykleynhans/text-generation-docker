@@ -10,9 +10,6 @@ echo "TEMPLATE NAME: ${TEMPLATE_NAME}"
 echo "TEMPLATE VERSION: ${TEMPLATE_VERSION}"
 echo "VENV PATH: ${VENV_PATH}"
 
-echo "Template version: ${TEMPLATE_VERSION}"
-echo "venv: ${VENV_PATH}"
-
 if [[ -e ${TEMPLATE_VERSION_FILE} ]]; then
     EXISTING_TEMPLATE_NAME=$(jq -r '.template_name // empty' "$TEMPLATE_VERSION_FILE")
 
