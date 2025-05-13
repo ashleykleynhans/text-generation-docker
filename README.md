@@ -19,7 +19,7 @@
 
 * Ubuntu 22.04 LTS
 * CUDA 12.4.1
-* Python 3.12.9
+* Python 3.11.9
 * Torch 2.6.0
 * [Text Generation Web UI](
   https://github.com/oobabooga/text-generation-webui) v3.2
