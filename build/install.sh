@@ -14,7 +14,7 @@ git checkout ${OOBABOOGA_VERSION}
 
 # Install the dependencies for Text Generation Web UI
 # Including all extensions
-pip3 install -r requirements.txt
+pip3 install -r requirements/full/requirements.txt
 bash -c 'for req in extensions/*/requirements.txt ; do pip3 install -r "$req" ; done'
 #    mkdir -p repositories
 #    cd repositories
