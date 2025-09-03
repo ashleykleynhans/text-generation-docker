@@ -15,7 +15,7 @@ variable "RELEASE" {
 }
 
 variable "CU_VERSION" {
-    default = "124"
+    default = "128"
 }
 
 variable "BASE_IMAGE_REPOSITORY" {
@@ -23,15 +23,15 @@ variable "BASE_IMAGE_REPOSITORY" {
 }
 
 variable "BASE_IMAGE_VERSION" {
-    default = "2.4.4"
+    default = "2.4.5"
 }
 
 variable "CUDA_VERSION" {
-    default = "12.4.1"
+    default = "12.8.1"
 }
 
 variable "TORCH_VERSION" {
-    default = "2.6.0"
+    default = "2.7.1"
 }
 
 variable "PYTHON_VERSION" {
