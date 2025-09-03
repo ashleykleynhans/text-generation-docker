@@ -25,4 +25,4 @@ bash -c 'for req in extensions/*/requirements.txt ; do pip3 install -r "$req" ; 
 #    pip3 install .
 
 # Fix safetensors module broken by above exllama repository installation
-pip3 install -U safetensors>=0.4.1
+#pip3 install -U safetensors>=0.4.1
