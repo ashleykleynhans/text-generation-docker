@@ -20,7 +20,7 @@
 * Ubuntu 22.04 LTS
 * CUDA 12.8.1
 * Python 3.11.12
-* Torch 2.7.1
+* Torch 2.9.1
 * [Text Generation Web UI](
   https://github.com/oobabooga/text-generation-webui) v3.17
 * [Jupyter Lab](https://github.com/jupyterlab/jupyterlab)
