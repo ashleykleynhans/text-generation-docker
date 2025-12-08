@@ -24,5 +24,5 @@ bash -c 'for req in extensions/*/requirements.txt ; do pip3 install -r "$req" ; 
 #    pip3 install -r requirements.txt
 #    pip3 install .
 
-# Fix broken numpy module
-pip install numpy==1.26.4
+# Fix numpy and pandas incompatibility issue
+pip3 install --force-reinstall numpy==2.2.* pandas
