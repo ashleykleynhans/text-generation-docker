@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ARGS=("$@" --listen --api --listen-port 3001 --api-port 5001 --extensions api --trust-remote-code)
+ARGS=("$@" --listen --api --listen-port 3000 --api-port 5000 --extensions api --trust-remote-code)
 
 if [[ -f /workspace/text-gen-model ]];
 then

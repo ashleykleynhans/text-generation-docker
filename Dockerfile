@@ -19,10 +19,6 @@ ENV OOBABOOGA_VERSION=${OOBABOOGA_VERSION}
 COPY --chmod=755 build/install.sh /install.sh
 RUN /install.sh && rm /install.sh
 
-# NGINX Proxy
-COPY nginx/nginx.conf /etc/nginx/nginx.conf
-COPY nginx/api.html /usr/share/nginx/html/
-
 # Remove existing SSH host keys
 RUN rm -f /etc/ssh/ssh_host_*
 
