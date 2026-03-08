@@ -11,7 +11,7 @@ variable "APP" {
 }
 
 variable "RELEASE" {
-    default = "v3.23"
+    default = "v4.0"
 }
 
 variable "RELEASE_SUFFIX" {
@@ -27,7 +27,7 @@ variable "BASE_IMAGE_REPOSITORY" {
 }
 
 variable "BASE_IMAGE_VERSION" {
-    default = "2.4.11"
+    default = "2.4.15"
 }
 
 variable "CUDA_VERSION" {
@@ -35,11 +35,11 @@ variable "CUDA_VERSION" {
 }
 
 variable "TORCH_VERSION" {
-    default = "2.7.1"
+    default = "2.10.0"
 }
 
 variable "PYTHON_VERSION" {
-    default = "3.11"
+    default = "3.12"
 }
 
 target "default" {

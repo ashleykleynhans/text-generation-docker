@@ -19,10 +19,10 @@
 
 * Ubuntu 22.04 LTS
 * CUDA 12.8.1
-* Python 3.11.12
-* Torch 2.7.1
+* Python 3.12
+* Torch 2.10.0
 * [Text Generation Web UI](
-  https://github.com/oobabooga/text-generation-webui) v3.23
+  https://github.com/oobabooga/text-generation-webui) v4.0
 * [Jupyter Lab](https://github.com/jupyterlab/jupyterlab)
 * [code-server](https://github.com/coder/code-server)
 * [runpodctl](https://github.com/runpod/runpodctl)
