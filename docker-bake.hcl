@@ -27,7 +27,7 @@ variable "BASE_IMAGE_REPOSITORY" {
 }
 
 variable "BASE_IMAGE_VERSION" {
-    default = "2.4.15"
+    default = "2.4.16"
 }
 
 variable "CUDA_VERSION" {
@@ -39,7 +39,7 @@ variable "TORCH_VERSION" {
 }
 
 variable "PYTHON_VERSION" {
-    default = "3.12"
+    default = "3.13"
 }
 
 target "default" {
