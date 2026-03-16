@@ -22,7 +22,7 @@
 * Python 3.13
 * Torch 2.9.1
 * [Text Generation Web UI](
-  https://github.com/oobabooga/text-generation-webui) v4.0
+  https://github.com/oobabooga/text-generation-webui) v4.1
 * [Jupyter Lab](https://github.com/jupyterlab/jupyterlab)
 * [code-server](https://github.com/coder/code-server)
 * [runpodctl](https://github.com/runpod/runpodctl)
