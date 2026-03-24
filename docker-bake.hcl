@@ -11,7 +11,7 @@ variable "APP" {
 }
 
 variable "RELEASE" {
-    default = "v4.1.1"
+    default = "v4.2"
 }
 
 variable "RELEASE_SUFFIX" {
@@ -27,7 +27,7 @@ variable "BASE_IMAGE_REPOSITORY" {
 }
 
 variable "BASE_IMAGE_VERSION" {
-    default = "2.4.16"
+    default = "2.4.18"
 }
 
 variable "CUDA_VERSION" {
