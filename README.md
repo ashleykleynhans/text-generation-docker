@@ -90,13 +90,13 @@ You can obviously substitute the image name and tag with your own.
 
 ## Ports
 
-| Connect Port | Internal Port | Description            |
-|--------------|---------------|------------------------|
-| 3000         | 3001          | Text Generation Web UI |
-| 5000         | 5001          | Open AI Compatible API |
-| 7777         | 7777          | Code Server            |
-| 8888         | 8888          | Jupyter Lab            |
-| 2999         | 2999          | Runpod File Uploader   |
+| Connect Port | Internal Port | Description                      |
+|--------------|---------------|----------------------------------|
+| 3000         | 3001          | Text Generation Web UI           |
+| 5000         | 5001          | Open AI/Anthropic Compatible API |
+| 7777         | 7777          | Code Server                      |
+| 8888         | 8888          | Jupyter Lab                      |
+| 2999         | 2999          | Runpod File Uploader             |
 
 ## Environment Variables
 
