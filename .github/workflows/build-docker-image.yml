@@ -108,7 +108,11 @@ jobs:
       - name: Free up disk space
         run: |
           sudo swapoff -a
-          sudo rm -rf /swapfile /usr/share/dotnet /usr/local/lib/android /opt/ghc
+          sudo rm -rf /swapfile /usr/share/dotnet /usr/local/lib/android /opt/ghc \
+            /usr/local/share/boost /usr/local/graalvm /usr/local/share/powershell \
+            /usr/local/share/chromium /usr/local/lib/node_modules /usr/share/swift \
+            /opt/hostedtoolcache /usr/local/.ghcup
+          sudo docker image prune -af
           sudo apt clean
           df -h
 

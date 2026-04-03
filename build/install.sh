@@ -26,3 +26,7 @@ bash -c 'for req in extensions/*/requirements.txt ; do pip3 install -r "$req" ; 
 
 # Fix numpy and pandas incompatibility issue
 pip3 install --force-reinstall numpy==2.2.* pandas
+
+# Clean up to reduce image size
+pip3 cache purge
+rm -rf /root/.cache /tmp/*
