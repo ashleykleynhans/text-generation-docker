@@ -28,5 +28,5 @@ bash -c 'for req in extensions/*/requirements.txt ; do pip3 install -r "$req" ; 
 pip3 install --force-reinstall numpy==2.2.* pandas
 
 # Clean up to reduce image size
-pip3 cache purge
+pip3 cache purge 2>/dev/null || true
 rm -rf /root/.cache /tmp/*
